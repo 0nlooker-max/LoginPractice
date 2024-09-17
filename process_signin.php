@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Fetch the user data from the database
         $user = $result->fetch_assoc();
 
-        // para login 
+        // para login
         session_start();
         $_SESSION['id'] = $user['id'];
         $_SESSION['username'] = $user['username'];
