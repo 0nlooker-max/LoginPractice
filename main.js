@@ -7,7 +7,7 @@ function getQueryParam(param) {
 // Get the value of the 'log' parameter
 const showSignUp = getQueryParam('log') === 'true';
 
-// Select elements
+// Select elements  
 const signInBtn = document.getElementById("signIn");
 const signUpBtn = document.getElementById("signUp");
 const container = document.querySelector(".container");
@@ -27,10 +27,3 @@ signInBtn.addEventListener("click", () => {
 signUpBtn.addEventListener("click", () => {
     container.classList.add("right-panel-active");
 });
-
-// Optionally, prevent form submission (if forms are used)
-// const firstForm = document.getElementById("form1");
-// const secondForm = document.getElementById("form2");
-
-// firstForm.addEventListener("submit", (e) => e.preventDefault());
-// secondForm.addEventListener("submit", (e) => e.preventDefault());

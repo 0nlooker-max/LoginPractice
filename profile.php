@@ -21,6 +21,5 @@ include"session_check.php";
             <a href="logout.php">Logout</a>
         </li>
     </ul>
-    <P>Hello <?= $_SESSION['username'] ?></>
 </body>
 </html>
